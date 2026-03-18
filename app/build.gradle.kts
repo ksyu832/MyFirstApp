@@ -4,7 +4,7 @@ plugins {
 }
 
 android {
-    namespace = "com.hramova.myfirstapp"
+    namespace = "ru.hramova.myfirstapp"
     compileSdk = 36
 
     defaultConfig {
@@ -36,7 +36,6 @@ android {
 }
 
 dependencies {
-
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
