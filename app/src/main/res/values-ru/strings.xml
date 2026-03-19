@@ -5,13 +5,13 @@
     <string name="student_info">Студент: Храмова Ксения\nГруппа: 3.2.ИСиП-1</string>
     <string name="avatar_description">Аватар автора</string>
     <string name="menu_description">Меню</string>
-    <string name="TheTitleOfThePost">Нетология. Университет интернет-профессий</string>
-    <string name="TheMainTextOfThePost">Привет, это новая Нетология! Когда-то Нетология начиналась с интенсивов по онлайн-маркетингу. Затем появились курсы по дизайну, разработке, аналитике и управлению. Мы растём сами и помогаем расти студентам: от новичков до уверенных профессионалов.</string>
+    <string name="text_author">Нетология. Университет интернет-профессий</string>
+    <string name="text_content">Привет, это новая Нетология! Когда-то Нетология начиналась с интенсивов по онлайн-маркетингу. Затем появились курсы по дизайну, разработке, аналитике и управлению. Мы растём сами и помогаем расти студентам: от новичков до уверенных профессионалов.</string>
     <string name="like_description">Нравится</string>
     <string name="share_description">Поделиться</string>
     <string name="views_description">Просмотры</string>
     <string name="date">21 мая в 18:36</string>
-    <string name="nameWebsite">Новая Нетология: 4 уровня карьеры</string>
+    <string name="text_link">Новая Нетология: 4 уровня карьеры</string>
     <string name="netology_ru">netology.ru</string>
     <string name="_150">150</string>
     <string name="_25">25</string>

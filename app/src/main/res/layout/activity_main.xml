@@ -28,7 +28,7 @@
         android:layout_marginStart="16dp"
         android:ellipsize="end"
         android:singleLine="true"
-        android:text="@string/TheTitleOfThePost"
+        android:text="@string/text_author"
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@id/published"
@@ -36,7 +36,7 @@
         app:layout_constraintStart_toEndOf="@id/avatar"
         app:layout_constraintTop_toTopOf="@id/avatar"
         tools:ignore="VisualLintLocaleText"
-        tools:text="@string/TheTitleOfThePost" />
+        tools:text="@string/text_author" />
 
     <ImageButton
         android:id="@+id/menu"
@@ -75,13 +75,13 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="@string/TheMainTextOfThePost"
+        android:text="@string/text_content"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/barrier"
         tools:ignore="VisualLintLongText"
-        tools:text="@string/TheMainTextOfThePost" />
+        tools:text="@string/text_content" />
 
 
     <LinearLayout
@@ -101,7 +101,7 @@
             android:id="@+id/link_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/nameWebsite"
+            android:text="@string/text_link"
             android:textColor="@color/purple_500"
             android:textSize="14sp"
             android:textStyle="bold"
@@ -135,7 +135,7 @@
             android:layout_marginEnd="16dp"
             android:background="@android:color/transparent"
             android:contentDescription="@string/like_description"
-            android:src="@drawable/ic_favorite"
+            android:src="@drawable/ic_like_border"
             app:tint="@color/purple_500"
             tools:ignore="TouchTargetSizeCheck" />
 
@@ -190,9 +190,5 @@
             android:textSize="14sp"
             tools:text="5.7K" />
     </LinearLayout>
-
-
-
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

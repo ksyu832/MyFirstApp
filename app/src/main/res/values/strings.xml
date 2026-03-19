@@ -4,16 +4,15 @@
     <string name="student_info">Student: Hramova Ksenia\nGroup: 3.2.ISiP-1</string>
     <string name="avatar_description">The author\'s avatar</string>
     <string name="menu_description">Menu</string>
-    <string name="TheTitleOfThePost">Netology. University of Internet Professions</string>
-    <string name="TheMainTextOfThePost">Hello, this is the new Netology! Netology once started with online marketing intensives. Then, courses on design, development, analytics, and management appeared. We grow ourselves and help students grow: from beginners to confident professionals.</string>
+    <string name="text_author">Netology. University of Internet Professions</string>
+    <string name="text_content">Hello, this is the new Netology! Netology once started with online marketing intensives. Then, courses on design, development, analytics, and management appeared. We grow ourselves and help students grow: from beginners to confident professionals.</string>
     <string name="like_description">Like</string>
     <string name="share_description">Share</string>
     <string name="views_description">Views</string>
     <string name="date">May 21 at 18:36</string>
-    <string name="nameWebsite">New Netology: 4 Career Levels</string>
+    <string name="text_link">New Netology: 4 Career Levels</string>
     <string name="netology_ru">netology.ru</string>
     <string name="_150">150</string>
     <string name="_25">25</string>
     <string name="_5_7k">5.7K</string>
-
 </resources>
