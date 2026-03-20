@@ -4,13 +4,14 @@ import java.text.DecimalFormat
 
 object FormatUtils {
     fun formatCount(count: Int): String {
+        val decimalFormat = DecimalFormat("0.0")
         return when {
             count >= 1_000_000 -> {
                 val millions = count / 1_000_000.0
                 if (millions % 1.0 == 0.0) {
                     "${millions.toInt()}M"
                 } else {
-                    DecimalFormat(".").format(millions) + "M"
+                    decimalFormat.format(millions) + "M"
                 }
             }
             count >= 10_000 -> {
@@ -21,7 +22,7 @@ object FormatUtils {
                 if (thousands % 1.0 == 0.0) {
                     "${thousands.toInt()}K"
                 } else {
-                    DecimalFormat(".").format(thousands) + "K"
+                    decimalFormat.format(thousands) + "K"
                 }
             }
             else -> count.toString()
