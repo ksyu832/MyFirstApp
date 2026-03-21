@@ -42,6 +42,8 @@ android {
     }
 
     dependencies {
+        //noinspection UseTomlInstead
+        implementation("androidx.recyclerview:recyclerview:1.4.0")
         // Lifecycle и ViewModel
         //noinspection UseTomlInstead
         implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0")
