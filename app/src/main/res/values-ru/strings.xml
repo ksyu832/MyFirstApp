@@ -16,4 +16,11 @@
     <string name="_150">150</string>
     <string name="_25">25</string>
     <string name="_5_7k">5.7K</string>
+    <string name="edit_post">Редактировать</string>
+    <string name="remove_post">Удалить</string>
+    <string name="post_hint">Что у вас нового?</string>
+    <string name="save_post">Опубликовать</string>
+    <string name="cancel_edit_hint">Редактирование...</string>
+    <string name="cancel_edit">Отменить</string>
+
 </resources>

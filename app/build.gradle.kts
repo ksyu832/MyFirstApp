@@ -10,6 +10,7 @@ android {
     buildFeatures {
         viewBinding = true
     }
+
     defaultConfig {
         applicationId = "ru.hramova.myfirstapp"
         minSdk = 24
